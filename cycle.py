@@ -39,7 +39,7 @@ if st.button("Assign"):
         projects[project_id]["assigned_count"] += 1
         st.success(f"Assigned {selected_project} to {selected_member}")
         # Rerun the app to update the display
-        st.experimental_rerun()
+        st.rerun()
 
 
 # ... (More features like activity logging, reporting, etc. would go here)
